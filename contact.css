@@ -1,0 +1,108 @@
+.contact{
+    background-color: rgb(22, 22, 68);
+    display: flex;
+    width: 114%;
+}
+.contact_container{
+    margin-left: 1rem;
+    width: 51rem;
+}
+.form_container{
+    background-color: darkslateblue;
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 6rem;
+}
+.details{
+    margin: 3rem 13rem;
+    font-size: 21px;
+}
+.contact_social{
+    margin: 2rem 14rem;
+    font-size: 2rem;
+}
+.contact_form{
+    display: flex;
+    gap: 2rem;
+    /* margin-left: 3rem; */
+}
+.contact_form input[type="text"]{
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 1rem;
+    padding: 3px 4px;
+    border-radius: 6px;
+}
+input[type="email"]{
+    margin: 0 1rem;
+    padding: 3px 1px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+textarea{
+    width: 50%;
+    margin-top: 2rem;
+    padding: 0 3rem;
+    background-color: foralwhite;
+    border-radius: 6px;
+    border: 1px solid black;
+    color: black;
+    margin-left: 5rem;
+}
+button{
+   background-color: rgb(228 89 54);
+    font-size: 21px;
+    text-decoration: none;
+    color: antiquewhite;
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+@media (max-width:995px){
+    .container{
+        width: 50%;
+    }
+    .form_container{
+        background-color: darkslateblue;
+        display: flex;
+        padding-top: 2rem;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-right: 14rem;
+    }
+    .details{
+        margin: 3rem 7rem;
+        font-size: 21px;
+    }
+    .contact_social{
+        margin: 2rem 10rem;
+        font-size: 2rem;
+    }
+    .contact_form input[type="text"]{
+        width: 30%;
+        border: 1px solid black;
+        margin: 0 1rem;
+        padding: 0px 29px;
+        border-radius: 6px;
+    }
+    input[type="email"]{
+        margin: 0 1rem;
+        padding: 3px 1px;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+    textarea{
+        width: 60%;
+        margin-top: 2rem;
+        padding: 0 3rem;
+        background-color: foralwhite;
+        border-radius: 6px;
+        border: 1px solid black;
+        color: black;
+        margin-left: 1rem;
+    }
+    
+}
+

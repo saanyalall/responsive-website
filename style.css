@@ -1,0 +1,531 @@
+*{
+    /* height: 100; */
+    /* width:100; */
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0; 
+   list-style: none;
+   text-decoration: none;
+
+}
+body{
+    color: antiquewhite;
+    background-color: blueviolet;
+    line-height: 1.7;
+}
+.btn{
+    display: inline-block;
+    background-color: white;
+    color: #030203;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 100;
+}
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.container{
+    /* width:50%; */
+    margin: 0 auto;
+}
+section{
+    padding: 4rem 0;;
+}
+section h2{
+    font-size: 2rem ;
+}
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+}
+a{
+ color:aliceblue;
+}
+img{
+    /* width: 100%; */
+    display: block;
+    object-fit: cover;
+}
+nav{
+    background-color:red;
+    width: 114vw;
+      height: 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+}
+.nav_container {
+    /* text-decoration: none; */
+    /* margin-left: 4rem; */
+    height: 100%;   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+ 
+}
+ nav button{
+    display: none;
+} 
+.window-scroll{
+    background:var(--color-primary);
+    box-shadow: #c7c708;
+}
+
+.nav-menu{
+margin: 0rem 41rem;
+    font-size: 20px;
+     display: flex;
+    /* justify-content: space-between;  */
+    align-items: center;
+    gap: 2rem;
+}
+ .nav-menu li {
+    color: antiquewhite;
+   
+     list-style: none;
+    text-decoration-style: none;
+  } 
+  .nav-menu a{
+    transition: all 400ms ease;
+  } 
+  .nav-menu a:hover{
+    color: #3d0d27a1;
+  }
+header{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.container-header{
+    display: flex;
+    /* grid-template-columns: 5fr 2fr; */
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+}
+.header_left{
+    margin: 35px;
+}
+.header_left a{
+    border: solid red 3px;
+    background-color: rgb(247, 45, 45);
+    border-radius: 25rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px
+}
+.header_right img{
+    height: 15rem;
+    padding: 40px;
+}
+.categories{
+    height: 29rem;
+    width: 102%;
+    /* margin: -1rem; */
+    background-color: rgb(45, 33, 87);
+}
+.categories-container{
+    display: grid;
+    margin: 3rem ;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    margin: -3rem 3rem;
+} 
+.categories a{
+    background-color: rgb(242, 55, 55);
+    font-size: 21px;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 4px 8px;
+    border-radius: 3rem;
+
+}
+.category_left{
+   margin:  5rem 0rem;
+}
+.category_left p{
+    margin: 32px 0px;
+
+}
+.categories_right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.category{
+    background-color: rgb(96, 96, 244);
+    padding: 2rem;
+    margin: 6px;
+    border-radius: 5rem;
+}
+.category:hover{
+    box-shadow:  0 3rem 3rem rgb(0,0,0.3);
+    z-index: 1;
+}
+.category_icon{
+    padding:0.7rem;
+    border-radius: 0.9rem;
+}
+.category:nth-child(1) .category_icon{
+    background-color:  #6c1f3f;
+}
+.category:nth-child(2) .category_icon{
+    background-color:   #1d5442;
+}
+.category:nth-child(3) .category_icon{
+    background-color:  #d91717e6;
+}
+.category:nth-child(4) .category_icon{
+    background-color:  #c7c708;
+}
+.category:nth-child(5) .category_icon{
+    background-color:  coral
+}
+.category:nth-child(6) .category_icon{
+    background-color:  #030203;
+}
+.courses{
+    margin-top: 7rem;
+    background-color: rgb(11, 11, 76);
+    /* width: 102%; */
+}
+.courses_container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1rem;
+   margin: 2rem 10rem;
+}
+.course{
+    background-color: rgb(31, 28, 72); 
+    /* width: 104%; */
+    /* margin: -1rem; */
+     text-align: center; 
+    border: 1px solid transparent;
+}
+.course{
+    /* background: transparent; */
+    border-color: azure;
+}
+.img-courses img{
+    height: 12rem;
+    padding: 7px;
+}
+.course_info{
+    padding: 1rem;
+}
+.course_info h4{
+    font-size: 23px;
+}
+.course_info p{
+    margin: 1.3rem 0 2rem;
+    font-size: 0.9rem;
+    /* padding: 3rem; */
+}
+.course_info a{
+    background-color: rgb(242, 55, 55);
+    font-size: 21px;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 4px 8px;
+    border-radius: 3rem;
+}
+
+.courses h2{
+display: flex;
+justify-content: center;
+}
+.faqs{
+    /* background-color: rgb(15 28 113); */
+    /* width: 80pc; */
+    margin: 0px -8px;
+    padding: 45px 0px;
+    gap: 2rem;
+}
+.faqs h5{
+    text-align: center;
+    font-size: 25px;
+}
+.faqs_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem 10rem;
+}
+.faq{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background-color: #29074aa1;
+    cursor: pointer;
+}
+.faq h4{
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+.faq p{
+    margin: 0.8rem;
+    display: none;
+ }
+ .faq.open p{
+    display: block;
+ }
+ .faq h5{
+    text-align: center;
+    margin: 1rem;
+    font-size: 25px;
+}
+.footer{
+    background-color:  rgb(31, 28, 72);
+    color: aliceblue;
+    padding: 44px 42px;
+    margin: 13px -8px;
+    /* width: 104%; */
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     gap: 3rem;
+}
+.footer_container > div h4{
+    margin-bottom: 2.2rem;
+    color: aliceblue;
+}
+.footer_1 p{
+    margin: 0 0 2rem;
+}
+.footer ul li{
+    text-decoration-style: none;
+    list-style: none;
+    color: aliceblue;
+}
+.footer_social{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+    list-style: none;
+    text-decoration-style: none;
+}
+.footer_copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid white;
+}
+ @media (max-width:1049px){
+    .container{
+        width:69%
+}
+ h1{
+font-size: 2.4rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+h4{
+    font-size: 1.3rem;
+} 
+    nav button{
+        display: inline-block;
+        background-color: transparent;
+        font-size: 1.8rem;
+        color:rgb(249, 239, 239);
+        cursor: pointer;
+}
+     nav button#close-menu-btn {
+        display: none;
+    }
+    
+    .nav-menu{
+        position: fixed;
+        top:5rem;
+        left:1rem;
+        height: fit-content;
+        width: 11rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+        background-color: #1d5442;
+    }
+    .nav-menu li{
+        width: 100%;
+        height: 5.8rem;
+        animation: animatedNavItems 400ms linear backwards;
+        transform-origin:top right;
+    }
+    .nav-menu li:nth-child(2){
+        animation-delay: 200ms;
+    }
+    .nav-menu li:nth-child(3){
+        animation-delay: 400ms;
+    }
+    .nav-menu li:nth-child(4){
+        animation-delay: 600ms;
+    }
+    @keyframes animatedNavItems {
+        0%{
+            transform: rotateZ(-90deg);
+        }
+        100%{
+            transform: rotateZ(0);
+        }
+        
+    }
+    .nav-menu li a{
+        /* background-color: rgb(12, 67, 67); */
+        /* box-shadow: tomato; */
+        color: white;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        place-items: center;
+    }
+   header{
+    height: 52vh;
+    padding-top: 2rem;
+   }
+   .container-header{
+    height: fit-content;
+    gap: 0;
+    padding-bottom: 6rem;
+   }
+   .header_left{
+    margin-left: -3rem;
+   }
+   .categories{
+    height: auto;
+   }
+   .categories-container{
+     grid-template-columns: 1fr;
+     gap: 2rem;
+     margin-left: 8rem;
+   }
+   .category_left{
+    margin-right: 0;
+   }
+   .courses{
+    margin-top: 0;
+    /* width: 114%; */
+}
+.courses_container{
+    grid-template-columns: 1fr 1fr;
+}
+.faqs_container{
+    grid-template-columns: 1fr;
+}
+.faq{
+    padding: 1.4rem;
+}
+.footer_container{
+    grid-template-columns: 1fr 1fr;
+} 
+}
+ /*media queries (phpnes  */
+ @media (max-width:755px) {
+    .container{
+        width:50%;
+    }
+    /* .nav-menu{
+        right: 3%;
+    } */
+    nav button{
+        display: inline-block;
+        background-color: transparent;
+        font-size: 1.8rem;
+        color:rgb(249, 239, 239);
+        cursor: pointer;
+}
+     nav button#close-menu-btn {
+        display: none;
+    }
+    
+    .nav-menu{
+        position: fixed;
+        top:5rem;
+        left:1rem;
+        height: fit-content;
+        width: 11rem;
+        flex-direction: column;
+        gap: 0;
+        display: none;
+        background-color: #1d5442;
+    }
+    .nav-menu li{
+        width: 100%;
+        height: 5.8rem;
+        animation: animatedNavItems 400ms linear forwards;
+        transform-origin:top left;
+    }
+    .nav-menu li:nth-child(2){
+        animation-delay: 200ms;
+    }
+    .nav-menu li:nth-child(3){
+        animation-delay: 400ms;
+    }
+    .nav-menu li:nth-child(4){
+        animation-delay: 600ms;
+    }
+    @keyframes animatedNavItems {
+        0%{
+            transform: rotateZ(-90deg);
+        }
+        100%{
+            transform: rotateZ(0);
+        }
+        
+    }
+    .nav-menu li a{
+        color: white;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        place-items: center;
+    }
+    header{
+        height: 70vh;
+    }
+    .container-header{
+        display: contents;
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .header_left{
+        margin-left: 2rem;
+    }
+    .header_right img{
+        margin-left: 11rem;
+        height: 12rem;
+        padding: 1rem 7rem;
+    }
+    
+    .categories_right{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .category_icon{
+        margin-top: 4px;
+        display: inline-block;
+    }
+    .courses_container{
+        grid-template-columns: 1fr;
+    }
+    .footer_container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 2rem;
+    }
+    .footer_1 p{
+        margin: 1rem auto;
+    }
+    .footer_social{
+        justify-content: center;
+    }
+
+ }

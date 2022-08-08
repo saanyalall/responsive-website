@@ -1,0 +1,45 @@
+.about{
+    margin-top: 3rem;
+}
+.achievements_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+}
+.achievements_left img{
+    height: 14rem;
+    /* width: 15rem; */
+    padding: 3rem 8rem;
+    margin-left: 1rem;
+}
+.achievements_right{
+    margin: 1rem 7rem;
+}
+.achievements_cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.achievement_card{
+    background-color: rgb(28, 21, 74);
+    padding: 1.6rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+@media (max-width:1049px) {
+    .container{
+        width: 50%;
+    }
+    .achievements_left img{
+        height: 14rem;
+        padding: 3rem 5rem;
+        margin-left: -13rem;
+    }
+    .achievements_right p{
+        /* padding: 3rem 4rem ; */
+        display: none;
+    }
+
+}
+  
